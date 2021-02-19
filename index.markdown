@@ -1,16 +1,3 @@
-<!--
- * @Author         : Jie Li, Ph.D. Candidate, SMSAS, University of Kent.
- * @Date           : 2021-02-19 18:00:21
- * @Last Revision  : 2021-02-19 19:44:31
- * @Last Author    : Jie Li
- * @File Path      : /Network-Analysis/index.markdown
- * @Description    : 
- * 
- * 
- * 
- * @Copyright (c) 2021 by Jie Li, jl705@kent.ac.uk
- * All Rights Reserved. 
--->
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
