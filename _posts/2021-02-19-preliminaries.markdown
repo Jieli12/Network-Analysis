@@ -47,6 +47,4 @@ permalink: /Chapter2/
   
 ## Code 
 
-{::nomarkdown}
-{% jupyter_notebook "Chapter2.ipynb" %}
-{:/nomarkdown}
+[Example](https://github.com/Jieli12/Jieli12.github.io/blob/main/nootbook/Chapter2.ipynb)
