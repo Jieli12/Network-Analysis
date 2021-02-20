@@ -1,8 +1,8 @@
 ---
-layout: post
-front_matter_title:  "Preliminaries"
-date:   2021-02-19 18:00:21 +0000
-permalink: /Chapter2/
+layout: default
+front_matter_title: Preliminaries
+parent: Chapter 2
+nav_order: 2
 ---
 
 # Preliminaries
