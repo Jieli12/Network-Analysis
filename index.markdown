@@ -15,13 +15,8 @@ project based on **R** about this book can be found
 [here](https://github.com/kolaczyk/sand).
 
 Most data and examples comes from [**Statistical Analysis of Network Data with
-R**](https://www.springer.com/gp/book/9781493909834#otherversion=9781493909827){%
-cite nr %}.
+R**](https://www.springer.com/gp/book/9781493909834#otherversion=9781493909827).
 
 ## Content
 
 [Chapter 2](Chapter2.md)
-
-## Reference 
-
-{% bibliography %}
