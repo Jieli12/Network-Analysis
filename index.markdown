@@ -5,6 +5,7 @@ nav_order: 1
 description: ""
 permalink: /
 ---
+# Statistical Analysis of Network Data Based on Python
 
 This is a Python project for the book [**Statistical Analysis of Network Data: Methods
 and Models**](https://link.springer.com/book/10.1007/978-0-387-88146-1).
