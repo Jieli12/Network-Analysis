@@ -35,10 +35,10 @@ remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
 
-permalink: pretty
-exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
-, "docs/tests/"
-]
+# permalink: pretty
+# exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
+# , "docs/tests/"
+# ]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
