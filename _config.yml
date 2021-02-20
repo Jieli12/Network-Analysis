@@ -131,8 +131,8 @@ ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (t
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
-  - jekyll-scholar
-  - jekyll-jupyter-notebook
+  # - jekyll-scholar
+  # - jekyll-jupyter-notebook
   # - jekyll-katex
 
 markdown: kramdown
@@ -153,30 +153,30 @@ compress_html:
   # ignore:
   #   envs: all
 
-scholar:
-  style: ieee-with-url
-  locale: en
+# scholar:
+#   style: ieee-with-url
+#   locale: en
 
-  sort_by: year
-  order: descending
+#   sort_by: year
+#   order: descending
 
-  group_by: type
-  type_order: thesis,article,inproceedings,techreport
-  group_order: none
+#   group_by: type
+#   type_order: thesis,article,inproceedings,techreport
+#   group_order: none
 
-  source: _bibliography
-  bibliography: network.bib
-  bibliography_template: "{{reference}}"
+#   source: _bibliography
+#   bibliography: network.bib
+#   bibliography_template: "{{reference}}"
 
-  replace_strings: true
-  join_strings: true
+#   replace_strings: true
+#   join_strings: true
 
-  use_raw_bibtex_entry: true
-  bibtex_filters:
-    - superscript
-    - latex
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
+#   use_raw_bibtex_entry: true
+#   bibtex_filters:
+#     - superscript
+#     - latex
+#   details_dir: bibliography
+#   details_layout: bibtex.html
+#   details_link: Details
 
-  query: "@*"
+#   query: "@*"
