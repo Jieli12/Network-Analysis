@@ -132,7 +132,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-scholar
-  # - jekyll-jupyter-notebook
+  - jekyll-jupyter-notebook
   # - jekyll-katex
 
 markdown: kramdown
