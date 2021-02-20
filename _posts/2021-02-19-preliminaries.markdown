@@ -44,3 +44,9 @@ permalink: /Chapter2/
   $e_i$ are $\{v_{i-1},v_i\}$.
 * **Length of walk:** $l$ is the length of this walk, i.e., equivalent to the
   number of edges in this walk.
+  
+## Code 
+
+{::nomarkdown}
+{% jupyter_notebook "Chapter2.ipynb" %}
+{:/nomarkdown}
