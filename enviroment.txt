@@ -1,0 +1,6 @@
+
+
+# enviroment
+
+Ruby, 2.7.2
+RVM, to control the ruby version
