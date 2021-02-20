@@ -23,8 +23,8 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   # gem "jekyll-scholar", "~> 6.5.0"
   gem "webrick"
-  gem "jekyll-jupyter-notebook"
-  gem "jekyll-scholar"
+  # gem "jekyll-jupyter-notebook"
+  # gem "jekyll-scholar"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

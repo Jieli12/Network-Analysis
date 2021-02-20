@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: My Post
 permalink: /docs/Posts/
 author: all
