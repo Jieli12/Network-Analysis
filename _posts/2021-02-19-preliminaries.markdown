@@ -15,7 +15,7 @@ permalink: /Chapter2/
 
 * **Graph:** $G=(V,E)$ where $V$ is a set of **vertices** (nodes) and $E$ is a
   set of **Edges** (links), the pairs $\{u,v\},u,v\in V$ are unordered.
-* $N_{v}= |V|$ is the number of vertices or **order**, $N_{e}=|E|$ is the number of edges or **size**.
+* $N_{v}= \vert V \vert$ is the number of vertices or **order**, $N_{e}=\vert E\vert$ is the number of edges or **size**.
 * **Loops:** both one single edge's ends connect to a single vertex.
 * **Multi-edges:** a pair of vertices has more than one edge between them.
 * **Multi-graph:** a graph with either loops or multi-edge.
