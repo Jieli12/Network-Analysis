@@ -36,15 +36,25 @@ nav_order: 2
   non-decreasing order. Note that the **Degree sequence** is twice the **size**
   of the graph.
 * **Degree** (digraph): for digraph, vertex degree is replaced by in-degree (i.e., $d_v^{in}$) and out-degree (i.e., $d_v^{out}$).
+* **Reachable**: A vertex v in a graph G is said to be reachable from another vertex u if there exists a walk from u to v.
+* **Connected**: The graph G is said to be connected if every vertex is reachable from every other.
+* **Component**: A component of a graph is a maximally connected subgraph. That is, it is a connected subgraph of G for which the addition of any other remaining vertex in V would ruin the property of connectivity.
+* **Weakly connected**(digraph): A digraph G is weakly connected if its underlying graph (i.e., the result of stripping away the labels ‘tail’ and ‘head’ from G) is connected.
+* **Strongly connected**(digraph): It is called strongly connected if every vertex v is reachable from every u by a directed walk.
 
 #### Movement
 
 * **Walk:** a walk on a graph $G$, from $v_0$ to $v_l$, is an alternating
   sequence $\{v_0,e_1,v_1,e_2,\ldots,v_{l-1},e_l,v_l\}$, where the endpoints of
-  $e_i$ are $\{v_{i-1},v_i\}$.
-* **Length of walk:** $l$ is the length of this walk, i.e., equivalent to the
-  number of edges in this walk.
+  $e_i$ are $\{v_{i-1},v_i\}$. Note that walks can have repeated edges.
+* **Length of walk:** $l$ is the length of this walk, i.e., equivalent to  the number of edges passed in that walk.
+* **trails:** walks without repeated edges.
+* **paths:** trails without repeated vertices.
+* **circuit:** the beginning and ending vertices of a trail are the same.
+* **cycle:** a walk of length at least three, for which the beginning and ending vertices are the same, but for which all other vertices are distinct from each other.
+* **acyclic:** Graphs containing no cycles are called acyclic.
+for more vivid explanations, see [here](http://mathonline.wikidot.com/walks-trails-paths-cycles-and-circuits)
   
-## Code 
-
-[Example](https://github.com/Jieli12/Jieli12.github.io/blob/main/nootbook/Chapter2.ipynb)
+#### Distance 
+* **distance (geodesic distance)**: defined as the length of the shortest path(s) between the vertices (which we set equal to infinity if no such path exists). ‘geodesic’ being another name for shortest paths.
+* **diameter** The value of the longest distance in a graph is called the diameter of the graph.
